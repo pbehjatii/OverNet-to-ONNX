@@ -1,5 +1,7 @@
 # OverNet_to_ONNX
-In this repository, we show how to export OverNet described in [["OverNet: Lightweight Multi-Scale Super-Resolution with Overscaling Network"](https://openaccess.thecvf.com/content/WACV2021/papers/Behjati_OverNet_Lightweight_Multi-Scale_Super-Resolution_With_Overscaling_Network_WACV_2021_paper.pdf)] (for increasing spatial resolution within your network for tasks such as super-resolution) from PYTORCH to ONNX and running it using ONNX RUNTIME. 
+Super-resolution is a way of increasing the resolution of images, videos and is widely used in image processing or video editing. In this repository, we show how to export OverNet described in [["OverNet: Lightweight Multi-Scale Super-Resolution with Overscaling Network"](https://openaccess.thecvf.com/content/WACV2021/papers/Behjati_OverNet_Lightweight_Multi-Scale_Super-Resolution_With_Overscaling_Network_WACV_2021_paper.pdf)] (for increasing spatial resolution within your network for tasks such as super-resolution) from PYTORCH to ONNX and running it using ONNX RUNTIME. 
+
+ONNX Runtime is a performance-focused engine for ONNX models, which inferences efficiently across multiple platforms and hardware (Windows, Linux, and Mac and on both CPUs and GPUs). ONNX Runtime has proved to considerably increase performance over multiple models. 
 
 ### Requirements
 - Python 3.5
