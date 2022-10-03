@@ -27,7 +27,7 @@ python OverNet_to_ONNX.py --ckpt_path './checkpoints/OverNet_test_x4.pth.tar' --
 ```
 python ONNX_validate.py 
 ```
-3- In order to run the model with ONNX Runtime:
+3- Finally, in order to run the model with ONNX Runtime:
 ```
 #scale 2
 python ONNXRUNTIME.py --output_dir 'outputs' --test_data_dir 'Images/x2'
